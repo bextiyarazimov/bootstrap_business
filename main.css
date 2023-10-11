@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    padding: 40px;
+    background-color:#155bd5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar_menu{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 4px;
+}
+.navbar_menu_item{
+    list-style: none;
+    
+}
+.navbar_menu_item_link{
+    text-decoration: none;
+    color: #f3f3f3a9;
+    font-family: sans-serif;
+    transition: .8s;
+
+}
+.navbar_menu_item_link:hover{
+    color: white;
+    transition: .8s;
+}
+.active{
+    color: white;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.header_icon{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header_leftSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+    padding: 90px;
+    margin-top: 20px;
+}
+.main_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #155bd5;
+  padding-top: 80px;
+  
+}
+.main_section_image img{
+    max-width: 800px;
+    padding: 60px;
+
+}
+header img{
+    max-width: 100%;
+
+}
+.main_section_left{
+    width: 700px;
+    padding: 60px;
+    margin-bottom: 60px;
+
+}
+.main_section_left h1 {
+    font-weight: 700;
+    text-shadow: 0 3px 8px #00000017;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 2.75em;
+    line-height: 1.25;
+    margin: 0;
+    display: block;
+
+}
+.main_section_left p {
+    margin-top: 30px;
+    color: white;
+    opacity: .7;
+}
+p {
+   font-size: 1em;
+   font-weight: 400;
+   line-height: 1.5;
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: sans-serif;
+    margin: 30px 0 0;
+
+}
